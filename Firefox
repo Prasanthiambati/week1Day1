@@ -1,0 +1,24 @@
+package week1.day1;
+
+import week1.day2.Browser;
+
+public class FireFox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int year=1998;
+		float version=100.2f;
+		boolean visible= true;
+		char logo='B';
+		String name="firefox";
+			System.out.println(year);
+				System.out.println(version);
+				System.out.println(visible);
+				System.out.println(name);
+				Browser objBrowser=new Browser();
+				objBrowser.getName();
+				
+				}
+
+}
